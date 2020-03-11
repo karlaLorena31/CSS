@@ -1,0 +1,89 @@
+.div1 {
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+}
+
+.div2 {
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+}
+.div3 {
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+}
+
+
+.p1{  
+
+    display: none;  
+   
+}
+
+.p2{  
+
+    display: none;  
+    
+}
+.p3{  
+
+    display: none;  
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .div1{
+
+    display: none;
+  
+    
+  }
+
+
+.p1{
+  display: block;
+}
+
+  
+}
+
+
+@media only screen and (max-width: 450px) {
+  
+  .div2 {
+    display: none;    
+  }
+
+  .p2{
+
+    display: block;
+
+  }
+
+
+  
+
+
+
+
+ 
+ 
+  
+}
+
+
+
+
+ 
+
+

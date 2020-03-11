@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .modoGrid{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows:repeat(2,100px);
+        background-color: black;
+        
+        justify-items:center;
+        align-items:center;
+
+        gap: 10px;
+        width: 300px;
+    }
+
+    #Amarillo{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: yellow;
+        justify-self: start;
+        align-self: flex-start;
+
+       
+        
+        
+    }
+    
+    #verde{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: green;
+        justify-self: center;
+        align-self: flex-start;
+       
+      
+        
+    }
+
+    
+    #rojo{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: red;
+        justify-self:end;
+        align-self: flex-start;
+        
+        
+        
+        
+    }
+
+    
+    #celeste{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: cyan;
+        justify-self: start;
+        align-self: flex-end;       
+        
+    }
+
+    
+    #Naranjo{
+        min-width: 30px;
+        min-height: 30px;
+        background-color:orange;
+        justify-self: center;
+        align-self: flex-end;
+  
+    }
+
+
+    #violeta{
+
+        min-width: 30px;
+        min-height: 30px;
+        background-color:violet;
+        justify-self: right;
+        align-self: flex-end;
+       
+        
+
+
+    }
+
+
+
+
+
+
+
+</style>
+<body>
+
+    <section class="modoGrid">
+        <div id="Amarillo"></div>
+        <div id="verde"></div>
+        <div id="rojo"></div>
+        <div id="celeste"></div>
+        <div id="Naranjo"></div>
+        <div id="violeta"></div>
+    </section>
+    
+</body>
+</html>

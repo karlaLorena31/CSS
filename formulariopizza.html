@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+
+<form action="">
+   
+    <div class="formulario">
+        <div class="cliente">
+            <input  disabled name = "Nombre" type="text " placeholder="Nombre del Cliente">
+        </div>
+
+        <p>Ingredientes</p>
+
+        <div class="ingrediente">  
+            <div>
+
+            <input  type="checkbox" name="queso" id="extraqueso">
+            <label for="extraqueso"> Extra queso</label>
+            <br>
+            <input type="checkbox" name="embutido" id="choricillo">
+            <label for="choricillo"> Choricillo</label>
+            <br>
+            <input type="checkbox" name="agregado" id="aceitunas">
+            <label for="aceitunas"> Aceitunas</label>
+
+            </div>
+        <div>
+
+            <input type="checkbox" name="especias" id="oregano">
+            <label for="oregano"> Oregano</label>
+            <br>
+            <input type="checkbox" name="embutido" id="jamon">
+            <label for="jamon"> Jamon</label>
+            <br>
+        </div>
+        <div>
+
+            <input type="checkbox" name="queso" id="mozarella">
+            <label for="mozarella"> Mozzarella</label>
+            <br>
+            <input type="checkbox" name="agregado" id="pimenton">
+            <label for="pimenton"> Pimentón</label>
+            <br>
+        </div>
+
+    </div>
+
+            <div class="texto">
+
+                <label for="">Tamaño</label>
+                <select id="tamaño">
+            
+                    <optgroup label="Tamaño">
+                        <option value="XS">Individual</option>
+                        <option value="M">Mediana</option>
+                        <option value="L">Familiar</option>
+                        
+                    </optgroup>
+                </select>
+            </div>
+
+   
+   
+            <div class="observacion" >
+                <label for="">Observacion </label>
+        
+                <textarea name="observacion" id="" cols="30" rows="10"></textarea>
+            </div>
+
+
+
+            <div class="boton">
+                <button type="reset"> reset</button>
+                <button type="submit"> Enviar</button>
+            </div>
+
+
+    </div>
+</form>
+
+</body>
+
+</html>

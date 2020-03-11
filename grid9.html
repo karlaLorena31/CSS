@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .modoGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px;
+        width: 300px;
+    }
+
+    div{
+        text-align: center;
+        line-height: 95px;
+        font-weight: bolder;
+    }
+    .seccion1{
+        background-color: rgb(255,255,0);
+        grid-column: 1/3;
+        grid-row: 1/2;
+        /*z-index:2 ;*/
+    }
+
+    .seccion2{
+        background-color: rgba(0,128,0,0.5);
+        grid-column: 2/4;
+        grid-row: 1/2;
+
+    }
+
+   
+   
+
+</style>
+<body>
+
+    <section class="modoGrid">
+
+
+        <div class="seccion1">
+            1
+        </div>
+        <div class="seccion2">
+            2
+
+        </div>
+
+        
+    </section>
+    
+</body>
+</html>

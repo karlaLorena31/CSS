@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .modoFlex {
+
+        display: flex;
+        /*alinea automaticamente el contenido*/
+        width: 300px;
+        /*flex-direction: column;*/
+        /*ordena en vertical*/
+        /*flex-direction: column-reverse;*/
+        /*ordena vertical desde el ultimo*/
+        flex-direction: row; /*ordena filas*/
+        /*flex-direction: row-reverse;*/
+        /*ordena filas en reversa*/
+    }
+
+    .modoFlex>div {
+
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <div class="modoFlex">
+        <div>caja1</div>
+        <div>caja2</div>
+        <div> caja3-Modo-display:blocks</div>
+        <div>caja4</div>
+        <div>caja5</div>
+    </div>
+
+</body>
+
+</html>

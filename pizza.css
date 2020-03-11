@@ -1,0 +1,73 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 500px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.cliente {
+  width: 400px;
+  height: 50px;
+}
+.cliente > input {
+  outline: none;
+  margin: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+
+.ingrediente {
+  width: 400px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.ingrediente > div {
+  width: 250px;
+  height: 70px;
+}
+.texto {
+  width: 400px;
+  height: 25px;
+}
+
+.observacion {
+  width: 390px;
+  height: 155px;
+}
+
+textarea {
+  resize: none;
+  width: 390px;
+  outline: none;
+}
+
+.boton {
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  text-align: center;
+  align-self: center;
+}
+
+.boton > button {
+  width: 150px;
+  height: 20px;
+  background-color: rgb(88, 88, 163);
+}
+
+optgroup{
+
+    outline: none;
+}

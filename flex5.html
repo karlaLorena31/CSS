@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .modoFlex {
+
+        width: 300px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .modoFlex > div {
+        height: 100px;
+        background-color: coral;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .w1 {
+        flex-grow: 1;
+    }
+
+    .w2 {
+        flex-grow: 2;
+    }
+
+    .w3 {
+        flex-grow: 3;
+    }
+</style>
+
+<body>
+
+    <div class="modoFlex">
+        <div class="w1"> Caja 1</div>
+        <div class="w3">Caja 2</div>
+        <div class="w2">Caja 3</div>
+    </div>
+
+</body>
+
+</html>

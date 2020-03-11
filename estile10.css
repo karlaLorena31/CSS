@@ -1,0 +1,42 @@
+.bloque1{
+
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.bloque2{
+
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    width: 100px;
+    height: 100px;
+
+}
+
+.bloque3{
+
+    border-top: 5px solid green;
+    border-right: 5px solid green;
+    width: 100px;
+    height: 100px;
+
+}
+.bloque4{
+
+    border-top: 5px solid green;
+    border-left: 5px solid green;
+    border-top: 5px solid green;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+

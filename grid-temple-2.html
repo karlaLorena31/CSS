@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .mod-grid{
+
+        display: grid;
+        width: 500px;
+
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,100px);
+
+        gap: 10px;
+
+        grid-template-areas: "Verde  Azul  Azul"
+                              " Verde Azul Azul"
+                              "Amarillo Amarillo cora";
+    }
+
+    #box-verde{
+        
+        grid-area: Verde ;
+        background-color: green;
+
+    }
+    #box-azul{
+        grid-area: Azul;
+        background-color: blue;
+
+
+    }
+    #box-amarillo{
+
+        grid-area: Amarillo;
+        background-color: yellow;
+
+    }
+    #box-coral{
+
+        grid-area: cora;
+        background-color: coral;
+    }
+
+
+   
+
+</style>
+<body>
+
+    <div class="mod-grid">
+        <div></div>
+        <div id="box-verde"></div>
+        <div></div>
+        <div id="box-amarillo"></div>
+        <div id="box-azul"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div id="box-coral"></div>
+    </div>
+    
+</body>
+</html>

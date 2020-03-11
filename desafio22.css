@@ -1,0 +1,109 @@
+.modoPagina2{
+
+    display: grid;   
+    width: 500px;
+    grid-template-columns: 745px;
+    grid-template-rows:  150px 500px 80px;
+    margin: 0 auto;
+    grid-template-areas: "A2"
+                        " B2"
+                        " C2";
+}
+
+
+.inicio2{
+    background-color:rgba(0,0,0, 0.9);
+    grid-area: A2;
+
+   border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+      
+}
+
+
+
+.medio3{
+
+    background-color:rgba(0,0,0, 0.9);
+    grid-area: B2;
+
+    
+
+   
+
+
+}
+
+
+
+
+.fin2{
+
+    background-color:rgba(0,0,0, 0.9);
+    color: white;
+    grid-area: C2;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+
+#texto2{
+
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 36px;
+    font-weight: bolder;
+}
+
+.img2{
+
+
+    width: 180px;
+    margin-left: 260px;  
+    padding-top: 120px;
+    
+   
+}
+
+.curso{
+
+    
+    border: 4px solid green;
+
+    width: 225px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;   
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 235px;
+    margin-top: 60px;
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+
+    
+    
+}
+
+
+.desplazar{
+
+    position:absolute;
+    z-index: 1;
+    left:700px;    
+    top: 0px;
+
+}
+
+
+.noLinea{
+
+    text-decoration: none;
+    
+    color: white;
+}

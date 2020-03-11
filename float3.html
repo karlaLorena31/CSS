@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+
+        min-height: 20px;
+        width: 300px;
+        background-color: violet;
+        overflow: hidden;  /* es no mostrar cpntenido que se desborde el padre*/
+    }
+    .flotar-izq{
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: coral;
+    }
+    .flotar-der{
+        float: right;
+        width: 100px;
+        height: 100px;
+        background-color: teal;
+    }
+</style>
+<body>
+    <section>
+        <div class=" flotar-izq"></div>
+        <div class="flotar-der"></div>
+    </section>
+    
+</body>
+</html>

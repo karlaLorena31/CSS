@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .modoGrid{
+
+        display: grid;
+        grid-template-columns: 100px minmax(300px,80fr) minmax(100px,20fr);
+        grid-template-rows: minmax(150px,250px) minmax(400px,auto);
+        /*gap: 20px;*/ /* separa las celdas en una medida*/
+
+        column-gap: 1px;   /*Separa las columnas en 1px*/
+        row-gap: 30px;      /*separa las filas en 30px*/
+        
+    }
+
+
+    .modoGrid > div{
+
+        background-color: teal;
+        border: 1px solid white;
+    }
+
+
+
+</style>
+<body>
+
+    <div class="modoGrid">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    
+</body>
+</html>

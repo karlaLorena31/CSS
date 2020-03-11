@@ -1,0 +1,29 @@
+div{
+    position: relative;/*para que las imagenes tomen la referencia del padre*/
+    
+}
+
+
+.tamano {
+  width: 560px;
+  height: 580px;
+  border-radius: 30px;
+}
+
+.perro {
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 1;/*posicionar sobre la imagen perro*/
+  position: absolute; /*para que el codigo no se vea hasta que el mouse se para sobre el*/
+  top: 0;
+  left: 0;
+}
+
+
+
+.perro:hover {
+  opacity: 1;
+  border-radius: 30px;
+}
+
+

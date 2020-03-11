@@ -1,0 +1,170 @@
+.ayuda {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(235, 128, 5);
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0; /* ajusta a la otra esquina de la pagina */
+  right: 0;
+}
+
+.ayuda > div:nth-of-type(1),
+.ayuda > div:nth-of-type(2) {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.ayuda > div:nth-of-type(3) {
+  background-color: red;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  align-self: center;
+}
+
+body {
+  max-height: 1500px;
+  background-color: rgb(208, 192, 223);
+}
+
+.pagina {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.5fr 5fr 1fr;
+  grid-template-rows: 250px 1000px 250px;
+
+  grid-template-areas:
+    "Header Header Header"
+    "Nav Section Aside"
+    "Footer Footer Footer";
+ 
+    margin: 0 auto;
+}
+
+header {
+  grid-area: Header;
+
+  background-color: burlywood;
+  border-radius: 2px;
+  background-image: url("/fondo.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  z-index: 1;
+ 
+}
+.encabezado{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    padding-top:0px;
+}
+
+.logo {
+
+  width: 260px;
+  height: 240px;
+}
+
+
+nav {
+  grid-area: Nav;
+  width: 8%;
+
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: fixed;
+  top: 260px;
+  left: 2px;
+}
+
+nav > div {
+  width: 100%;
+  height: 50px;
+  background-color: chocolate;
+  border-radius: 20px 0px 20px 0px;
+  text-align: center;
+  padding-top: 25px;
+  transition: font-size 1s border-style 2s;
+  border: dotted white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav div:hover {
+  background-color: rgb(228, 214, 205);
+  font-size: 30px;
+  color: green;
+}
+
+
+section {
+    grid-area: Section;
+  
+    background-color: rgb(235, 202, 202);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+
+  section >div{
+
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    
+  }
+
+  .img-contenido{
+      width: 200px;
+      height: 200px;
+  }
+ 
+
+
+
+
+footer {
+  grid-area: Footer;
+
+  background-color: rgb(65, 44, 17);
+  border-radius: 2px;
+  
+
+  
+}
+
+
+
+
+
+
+
+
+aside {
+  grid-area: Aside;
+
+  background-color: rgb(115, 115, 200);
+  border-radius: 2px;
+}

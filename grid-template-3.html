@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .Pagina{
+
+        display: grid;   
+        gap: 10px;
+        width: 980px;
+        margin: 0 auto;
+
+        grid-template-columns: repeat(4,1fr);
+
+        grid-auto-rows: minmax(150px, auto) minmax(200px,auto)  minmax(400px,auto) minmax(150px,auto) minmax(150px,auto);
+
+        /*grid-template-rows: 150px 200px 200px 200px 150px ;*/
+
+        grid-template-areas: " Verde Verde Verde Verde "
+                            "Azul Amarillo Amarillo  Rojo"
+                            "Blanco Amarillo Amarillo  Rojo"
+                            "Naranjo Naranjo Naranjo Naranjo";
+    }
+
+    header{
+
+        background-color: green;  
+        grid-area: Verde;
+    }
+
+
+    nav{
+        background-color: blue;
+        grid-area: Azul;
+
+
+    }
+
+    section{
+
+        background-color: yellow;
+        grid-area: Amarillo;
+    }
+
+    aside{
+
+        background-color: red;
+        grid-area: Rojo;
+    }
+    footer{
+
+        background-color: orange;
+        grid-area:Naranjo;
+
+    }
+
+
+</style>
+<body>
+
+    <div class="Pagina">
+        <header></header>
+        <nav></nav>
+        <section></section>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

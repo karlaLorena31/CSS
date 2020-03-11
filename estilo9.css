@@ -1,0 +1,51 @@
+.borde{
+
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: teal;
+}
+
+
+.borde1{
+
+
+    width: 400px;
+    height: 50px;
+    border-style:dotted;
+    border-width: 5px;
+    border-color:red;
+
+}
+
+
+
+.borde2{
+
+
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:green;
+
+}
+
+
+.borde3{
+
+
+    width: 50px;
+    height: 50px;
+   
+    border-width: 3px;
+
+    border-top-style:dashed ;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: dashed;
+
+}
+
+

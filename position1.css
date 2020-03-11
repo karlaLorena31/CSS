@@ -1,0 +1,30 @@
+section{
+
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+div{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+    
+}
+
+.div-1{
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+}
+
+.div-2{
+    background-color: coral;
+    top: 0px;
+    left: 100px;
+}

@@ -1,0 +1,54 @@
+.c1{
+
+    color: blue;
+    font-size: 30px;
+}
+
+
+.c2{
+    color: red;
+    font-size: 50px;
+}
+
+.c3{
+    color: red;
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.c4{
+    color: blue;
+    font-size: 30px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+
+
+
+/* codigo restructurado*/
+
+.tamano-color-letra{
+
+    color: red;
+    font-size: 50px;
+}
+
+
+
+.tamano-color2-letra{
+
+    color: blue;
+    font-size:30px; 
+
+}
+
+
+.bordes{
+
+    border: 1px solid black;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .modoGrid{
+
+        display: grid;
+
+        width: 500px;
+
+        grid-template-columns: repeat(3,1fr);
+
+        grid-template-rows: repeat(3,150px);
+
+        gap: 10px;
+
+
+        grid-template-areas: "N1 Negro N2" 
+                            "azul azul Rojo" 
+                            "N3 N3 Rojo";
+    }
+
+
+
+    .modoGrid > div{
+
+        background-color: pink;
+    }
+
+
+    #black{
+
+        /*grid-column: 2/3;
+        grid-row: 1/2;*/
+
+        grid-area:Negro;
+
+        background-color: black;
+
+    }
+
+
+    #blue{
+
+        /*grid-column: 1/3;
+        grid-row: 2/3;*/
+
+        grid-area: azul;
+
+        background-color: blue;
+    }
+
+
+    #red{
+
+        /*grid-column: 3/4;
+        grid-row: 2/4;*/
+
+        grid-area:Rojo; /*Da nombre a las celdas*/
+        background-color: red;
+    }
+
+
+</style>
+
+<body>
+
+    <div class="modoGrid">
+        <div id="blue"></div>
+        <div id="red"></div>
+        <div></div>
+        <div></div>
+        <div id="black"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    
+</body>
+</html>

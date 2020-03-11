@@ -1,0 +1,18 @@
+.d1 {
+  background-color: darkgreen;
+  color: white;
+  line-height: normal;
+}
+
+.d2 {
+  background-color: darkgreen;
+  color: white;
+  line-height: 50px;
+}
+
+.d3 {
+  background-color: darkgreen;
+  color: white;
+  line-height: 100px; /*determina el tamaño del div*/
+  text-align: center;
+}

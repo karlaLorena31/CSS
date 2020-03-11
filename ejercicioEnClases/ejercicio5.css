@@ -1,0 +1,41 @@
+
+table{
+
+    border: 1px solid black ; 
+    border-collapse: collapse;
+    text-align: center;
+    color: white;     
+    width: 400px;
+    height: 300px;
+}
+
+
+td{
+    border: 1px solid black;
+}
+
+tbody > tr:nth-child(2n-2){   /*Pares*/
+
+    background-color: blue;
+  
+}
+
+tbody > tr:nth-child(2n-1):not(:last-of-type):not(:first-of-type){ /* impares*/
+
+    background-color: rgb(133, 58, 93);
+        
+}
+
+
+tbody > tr:nth-of-type(1){  /* titulo tabla*/
+
+    background-color: rgb(94, 94, 206);
+    
+}
+
+tbody > tr:last-of-type{  /*final*/
+
+    background-color: black;
+
+        
+}

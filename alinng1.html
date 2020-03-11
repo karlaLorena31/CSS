@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .modoFlex {
+
+        width: 500px;
+        height: 250px;
+        display: flex;
+        flex-flow: row wrap;
+        border: 1px solid black;
+        /*align-items: flex-start;*//* dsitribuye hacia arriba con valor min de altura*/
+        /*align-items: flex-end;*/ /* distribuye hacia abajo con valor min de altura*/
+       /* align-items: center;*//*distribuye al centro con valor min de altura*/
+        align-items: stretch;/* ocupa tdo el alto de la tabla*/
+
+
+
+    }
+
+    .modoFlex>div {
+        min-height: 100px;
+        width: 100px;
+        background-color: coral;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+
+    <div class="modoFlex">
+        <div> Caja1</div>
+        <div>Caja2</div>
+        <div>Caja3</div>
+    </div>
+
+</body>
+
+</html>

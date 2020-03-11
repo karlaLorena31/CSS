@@ -1,0 +1,67 @@
+.disco{
+
+    display: grid;
+    width: 300px;
+    grid-template-columns: repeat(3,1fr );
+    grid-template-rows: repeat(3,100px);    
+}
+
+.disco > div{
+
+border: 1px solid blue;
+
+}
+
+.Green{
+
+    background-color: green;   
+}
+
+.violet{
+
+    background-color: pink;
+    
+}
+
+.blue{
+    background-color: blue;
+}
+
+
+.red{
+
+    background-color: red;
+}
+
+.violet:hover{
+
+    background-color: rgb(219, 102, 102);
+
+    -webkit-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    -moz-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);}
+
+
+.red:hover{
+
+    -webkit-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    -moz-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+}
+
+.Green:hover{
+
+    -webkit-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    -moz-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+
+
+}
+
+.blue:hover{
+
+    -webkit-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    -moz-box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+    box-shadow: inset 10px 10px 35px 17px rgba(224,199,224,1);
+
+}

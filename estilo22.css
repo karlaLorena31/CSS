@@ -1,0 +1,56 @@
+tr{
+ 
+    width: 150px;
+    height: 150px;
+
+    background-color: grey;
+
+}
+
+
+.tabla-cuadro{
+
+    border-collapse:collapse;
+    border-style: solid;
+    border-width: 2px;
+     width: 500px;
+
+}
+
+
+.div-iz{
+
+
+    background-color:orange;
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+
+   
+}
+
+
+.div-iz1{
+
+
+    background-color:blue;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+
+   
+}
+
+
+
+
+
+
+
+
+td{
+
+
+
+    border: 1px solid black
+}

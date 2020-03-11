@@ -1,0 +1,33 @@
+.tabla-promedio{
+
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.titulo-color{
+    background-color: rgb(229, 226, 226);
+
+}
+
+.tabla-notas1{
+
+    text-align: center;
+    
+}
+
+.bordes-promedio{
+
+    border: 1px solid black;
+
+}
+
+.colorNotaroja{
+
+    background-color: red;
+}
+
+.colorNotaVerde{
+
+    background-color: green;
+}

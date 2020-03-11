@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+
+    html{
+
+        font-size: 40px; /* valor base de la pagina web*/
+
+    }
+
+    div{
+
+        font-size: 0.8em; /* 20 % menos del valor base de la pagina web*/
+    }
+
+
+    .div1{
+
+        font-size: 1.2rem;/* 20 % mas del valor base de la pagina web*/
+    }
+
+</style>
+<body>
+
+    <div><!--40*0.8-->
+        <span>Test</span>
+        <div> <!--40*0.8*0.8-->
+            <span>Test</span>
+            <div><!--40*0.8*0.8*0.8-->
+                <span>Test</span>
+                <div class="div1"> <!--40*1.2-->
+                    <span>Test</span>
+                    <div> <!--40*1.2*0.8-->
+                        <span>Test</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</body>
+</html>

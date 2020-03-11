@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /*body > :nth-child(2n){         posiciona hijos directos pares
+
+    background-color: coral;
+    
+}*/
+
+    /*body > :nth-child(2n+1){   /* posiciona hijos directos impares
+
+background-color: rgb(80, 141, 255);
+
+}*/
+
+    body> :last-child {
+        /*Pinta el ultimo elemento, el utlimo elemento no se pinta por lo que hay que compiar la ruta directamente al navegador*/
+        color: cyan;
+    }
+
+    body> :first-child {
+        /*Pinta el primer elemento*/
+        color: violet
+    }
+</style>
+
+<body>
+    <p>1.- Parrafo</p>
+    <p>2.- parrafo</p>
+    <span>3.-Div</span>
+    <div>4.- span </div>
+    <span>5.- Parrafo</span>
+    <p>6.Parrafo</p>
+</body>
+
+</html>

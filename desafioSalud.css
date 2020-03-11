@@ -1,0 +1,172 @@
+.tablaSalud {
+  display: grid;
+  
+
+  width: 90%;
+
+  grid-template-columns: 1fr 4fr 4fr;
+  grid-template-rows: minmax(90px, auto) minmax(200px, 400px) minmax(90px, auto);
+
+  grid-template-areas:
+    "Header1 Header Header"
+    "NAV Section Section"
+    "Footer Footer Footer ";
+}
+
+.head2 {
+  grid-area: Header1;
+  background-color: teal;
+}
+
+.head2 > div {
+  display: inline-block;
+  background-color: white;
+  width: 60px;
+  margin-right: 1px;
+  border-radius: 20px;
+
+  margin-top: 20px;
+}
+
+.head2 > div:nth-of-type(1) {
+  background-color: teal;
+}
+
+header {
+  grid-area: Header;
+  background-color: teal;
+}
+.centrar {
+  margin: 18px;
+  padding-left: 350px;
+  width: 100%;
+}
+
+.centrar > div {
+  display: inline-block;
+  background-color: white;
+  margin-left: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.img1 {
+  width: 30px;
+  height: 30px;
+  padding: 13px;
+}
+
+nav {
+  grid-area: NAV;
+  background-color: blue;
+  text-align: justify;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu > div:nth-child(2n) {
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(114, 155, 151);
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.menu > div:nth-child(2n-1) {
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(91, 97, 151);
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+section {
+  grid-area: Section;
+
+  background-color: cyan;
+  text-align: justify;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 20px 20px 20px 20px;
+}
+
+footer {
+  grid-area: Footer;
+  background-color: teal;
+  text-align: justify;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.final {
+  font-size: 20px;
+  padding-left: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 5000px) {
+  .head2 > div {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .tablaSalud {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 4fr 4fr;
+    grid-template-rows: minmax(90px, auto) minmax(200px, 400px) 100px;
+    gap: 15px;
+
+    grid-template-areas:
+      "Header1 Header1 Header1"
+      "Section Section  Section "
+      "Footer Footer Footer ";
+  }
+
+  nav {
+    display: none;
+  }
+
+  .final {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 1px;
+    
+  }
+
+  .centrar {
+    display: none;
+  }
+
+  .head2 {
+    grid-area: Header1;
+    margin-left: 0 auto;
+  }
+
+  .head2 > div {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  section{
+
+    margin-left: 20px;
+  }
+  
+}

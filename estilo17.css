@@ -1,0 +1,23 @@
+.dimension{
+    width:200px;
+}
+
+.fondo{
+    background-color: teal;
+    color: white;
+}
+
+
+
+.formato-texto{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+.bordes{
+
+    border: 5px solid rgb(15,68,59);
+}

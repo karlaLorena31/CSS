@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .modoFlex {
+
+        width: 500px;
+        display: flex;
+        flex-flow: row wrap;
+        border: 1px solid black;
+        justify-content:  space-around; /*deja espacio alrededro de los divs*/
+        /*justify-content:  space-between;*/ /*deja espacios entre divs*/
+        /*justify-content: flex-start;*/ /*distribuye al inicio*/
+        /*justify-content: center;*//*distribuye al centro*/
+        /*justify-content: flex-end;*/ /*distribuye el contenido al final*/
+
+    }
+
+    .modoFlex>div {
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+
+    <div class="modoFlex">
+        <div> Caja1</div>
+        <div>Caja2</div>
+        <div>Caja3</div>
+    </div>
+
+</body>
+
+</html>

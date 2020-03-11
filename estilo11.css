@@ -1,0 +1,50 @@
+.texto1{
+    color: black;
+    background-color: red;
+}
+
+.texto2{
+    font-size: 25px;
+   
+    font-weight: bolder;   
+}
+
+.texto3{
+    font-style: italic;
+    color: darkblue;
+}
+
+.texto4{
+    font-weight: bolder;
+}
+
+.texto5{
+
+    letter-spacing: 10px ;
+
+}
+
+
+.texto6{
+    letter-spacing: -2px;
+
+
+}
+
+.texto7{
+
+    color: black;
+    text-decoration:none;
+
+
+}
+
+.texto8{
+
+    background-color: blue;
+    
+    color:white;
+    text-decoration:underline;
+    
+
+}

@@ -1,0 +1,29 @@
+div{
+    position: relative;
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 256px;
+}
+
+.tamano{
+    width: 256px;
+    height: 256px;
+}
+
+div>img:nth-of-type(2) {
+   
+    transition: left 1s  ;  
+    position: absolute; /*para que el codigo no se vea hasta que el mouse se para sobre el*/
+    top: 0px;
+    left: 256px;/*para colocarlo al lado de la imagen*/
+  }
+
+  div:hover>img:nth-of-type(2) {
+  
+    left: 0px;
+  
+  }
+
+
+

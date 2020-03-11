@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+
+
+
+body{
+
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(231, 231, 255);
+}
+
+
+.PaginaPrincipal{
+
+
+    display: grid;
+    width: 1000px;
+    
+    grid-template-columns: minmax(90px,1000px);
+    grid-template-rows: minmax(90px,auto) minmax(90px,auto);
+
+    grid-template-areas: "Titulo"
+                         "seccion";
+    margin: 0 auto;     
+        
+
+}
+.PaginaPrincipal>div{
+    border: 1px solid black;
+}
+
+
+header{
+    /*background-color: blue;*/
+    grid-area: Titulo;
+    
+}
+
+
+header>h2{
+
+font-size: 3rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: normal;
+text-align: center;
+}
+
+
+
+
+section{
+    background-color: white;
+    grid-area: seccion;
+}
+
+.FlexSeccion{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1000px;  
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.tags{
+    display: flex;
+    height: 20px;
+    /*border: 1px solid black;*/
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 14px;    
+    
+}
+
+.tags>div{
+
+    /*border: 1px solid black;*/  
+    margin: 5px;
+    padding: 5px;
+   
+
+    
+}
+
+.tags >div:nth-of-type(1),.tags >div:nth-of-type(6){
+
+    font-size: 0.7rem;
+    background-color: rgb(93, 136, 255);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+
+.tags >div:nth-of-type(2),.tags >div:nth-of-type(5),.tags >div:nth-of-type(8){
+
+    font-size: 0.7rem;
+    background-color: rgb(214, 204, 68);
+     text-align: center;
+     padding-top: 10px;
+
+}
+.tags >div:nth-of-type(3),.tags >div:nth-of-type(9){
+
+    font-size: 0.7rem;
+    background-color: rgb(42, 199, 146);
+     text-align: center;
+     padding-top: 10px;
+
+}
+.tags >div:nth-of-type(4),.tags >div:nth-of-type(7){
+
+    font-size: 0.7rem;
+    background-color: rgb(218, 81, 76);
+     text-align: center;
+     padding-top: 10px;
+
+}
+
+.tamano{
+
+    width: 25%;
+    align-self: flex-start;
+}
+
+
+
+.taman2{
+
+    width: 50%;
+}
+
+.tama3{
+
+    width: 25%;
+
+}
+
+h2{
+    padding-left: 13px;
+}
+
+  
+
+.FlexSeccion>div:nth-of-type(2){
+
+
+    /*border: 1px solid black;  */
+   
+    padding-left: 20px;
+    padding-top: 5px;
+    
+   
+
+}
+.FlexSeccion>div:nth-of-type(3){
+
+
+    /*border: 1px solid black;*/
+    font-size: 1.2rem; 
+   
+    padding-left: 15px;
+    flex-grow: 1;
+    
+
+}
+.FlexSeccion>h3{
+    color: rgb(75, 75, 75);
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.FlexSeccion>p{
+
+    color: grey;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+
+
+
